@@ -1,0 +1,228 @@
+#portfolio {
+    padding-top: 2rem;
+    width: var(----container-width-lg);
+    transition: var(--transition);
+    height: max-content;
+    padding-bottom: 7rem;
+}
+
+
+#portfolio img {
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-top: 2rem;
+    width: 36vw;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    transition: var(--transition);
+}
+
+
+.mySwiper {
+    width: 68%;
+    padding: 2rem;
+    transition: var(--transition);
+    border: 1px solid transparent;
+
+}
+
+.mySwiper:hover {
+    padding: 0 1rem;
+    border-bottom: 1px solid var(--color-primary);
+    background-color: rgba(106, 90, 205, .1);
+    cursor: pointer;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+
+#portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 28%;
+    gap: 15%;
+}
+
+.portfolio_data {
+    transition: var(--transition);
+    text-align: center;
+    padding-top: 7rem;
+    border: 1px solid transparent;
+}
+
+
+.portfolio_data p {
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+}
+
+.portfolio_data h3 {
+    font-size: 1.5rem;
+
+}
+
+.btnContainer {
+    text-align: center;
+}
+
+.btnContainer a:first-child {
+    background-color: var(--color-primary);
+    color: var(--color-bg-variant);
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+
+.btnContainer a:first-child:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+
+.arrow {
+    padding-left: .2rem;
+    vertical-align: middle;
+    font-size: 1.3rem;
+}
+
+/*======================== tablet queries devices */
+
+@media screen and (max-width: 1024px) {
+    #portfolio {
+        height: max-content;
+        padding-bottom: 2rem;
+    }
+
+    .portfolio_data h3 {
+
+        font-size: 1rem;
+
+    }
+
+    #portfolio img {
+        margin-top: 3rem;
+        margin-left: 3.5rem;
+
+    }
+
+    .mySwiper:hover {
+        padding: 0;
+        border-bottom: 1px solid var(--color-primary);
+        background-color: rgba(106, 90, 205, .1);
+        cursor: pointer;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    }
+
+    .mySwiper {
+        width: 76%;
+    }
+
+
+
+    .portfolio_data {
+        padding-top: 25%;
+    }
+
+    .portfolio_data p {
+        margin: .8rem;
+        font-size: .7rem;
+    }
+
+    .btn {
+        font-size: .7rem;
+        margin: .3rem;
+    }
+
+    .btnContainer a {
+        padding: .5rem 1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 1400px) and (min-width: 1025px) {
+    .mySwiper:hover {
+        padding: 0rem;
+        border-bottom: 1px solid var(--color-primary);
+        background-color: rgba(106, 90, 205, .1);
+        cursor: pointer;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    }
+
+
+    #portfolio {
+        margin-top: 8rem;
+        transition: var(--transition);
+    }
+
+    .portfolio_data {
+        padding-top: 5rem;
+    }
+
+    #portfolio img {
+        margin-top: 3rem;
+    }
+
+    #portfolio_data p {
+        font-size: .5rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    #portfolio {
+        padding-bottom: 0;
+        margin-top: 6rem;
+        width: var(--container-width-ms);
+        text-align: center;
+        height: fit-content;
+    }
+
+    .mySwiper:hover {
+        padding: 0rem;
+    }
+
+    #portfolio img {
+        margin: 3rem auto 0;
+        width: 68%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio_data h3 {
+        font-size: 1.5rem;
+    }
+
+    .portfolio_data p {
+        font-size: 1rem;
+    }
+
+    .portfolio_data {
+        padding-top: 3rem;
+    }
+
+
+    .btnContainer {
+        margin-top: 1.6rem;
+    }
+
+    .btn {
+        margin: 0 .7rem 2.2rem;
+    }
+
+    .mySwiper {
+        height: max-content;
+    }
+
+}

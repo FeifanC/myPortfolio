@@ -1,0 +1,115 @@
+#header {
+    padding: 5rem 0;
+    text-align: center;
+    overflow: hidden;
+    height: fit-content;
+    width: var(----container-width-lg);
+}
+
+#header h3 {
+    font-size: 1.5rem;
+}
+
+.container2 {
+    padding-top: 8rem;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.header_socials {
+    margin: 1rem 0;
+}
+
+.header_socials>a {
+    padding: 0 1rem;
+    width: 2rem;
+}
+
+.btn {
+    margin: .5rem;
+}
+
+.header_socials::after {
+    content: "—————";
+}
+
+.header_socials::before {
+    content: "—————";
+}
+
+.me {
+    text-align: center;
+    margin: 2rem auto;
+    width: 25vw;
+    height: 68vh;
+    background: linear-gradient(var(--color-primary), transparent);
+    border-radius: 12rem;
+}
+
+.me img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5rem;
+}
+
+.btn.btn2 {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+    #header {
+        padding: 7rem 0;
+        text-align: center;
+        height: max-content;
+    }
+
+    .container2 {
+        align-items: center;
+        padding: 7rem 0 0 2rem;
+    }
+
+    .me {
+        width: 70%;
+        height: 97%;
+    }
+
+    .header_socials {
+        margin: 1.8rem 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 0) {
+    #header {
+        height: fit-content;
+        text-align: center;
+        width: max-content;
+        margin-bottom: 2rem;
+        padding: 3.5rem 0;
+    }
+
+
+    .container2 {
+        font-size: large;
+        padding: 7rem 0 2rem 4rem;
+        width: max-content;
+        margin-left: 2rem;
+    }
+
+    .me {
+        width: 70%;
+        height: 90%;
+    }
+
+
+
+}

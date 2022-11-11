@@ -1,8 +1,6 @@
 import React from 'react'
 import "./nav.css"
 import { AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineContacts } from "react-icons/ai"
-import { FaRegHandshake } from "react-icons/fa"
-import { BiMessageDetail } from "react-icons/bi"
 import { useState } from "react"
 import { useEffect } from 'react'
 

@@ -161,7 +161,7 @@
     }
 
     .portfolio_data {
-        padding-top: 5rem;
+        padding-top: 3rem;
     }
 
     #portfolio img {
@@ -189,6 +189,10 @@
         padding: 0rem;
     }
 
+    .mySwiper{
+        height: max-content;
+    }
+
     #portfolio img {
         margin: 3rem auto 0;
         width: 68%;
@@ -199,6 +203,7 @@
         grid-template-columns: 1fr;
     }
 
+    
     .portfolio_data h3 {
         font-size: 1.5rem;
     }
@@ -208,7 +213,7 @@
     }
 
     .portfolio_data {
-        padding-top: 3rem;
+        padding-top: 1rem;
     }
 
 

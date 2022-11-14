@@ -38,9 +38,10 @@ const About = () => {
           </div>
 
           <p>
-            passionate and motivated individual with finite experience in
-            computer science field but seeking opportunities on learning new
-            techniques and gaining expertise for future career
+            College senior study computer science in University of Central
+            Florida with limited experience in development field but seeking
+            opportunities on learning new techniques and gaining expertise for
+            future career
           </p>
 
           <a href="#contact" className="btn btn-primary">

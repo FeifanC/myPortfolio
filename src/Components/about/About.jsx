@@ -39,9 +39,10 @@ const About = () => {
 
           <p>
             College senior study computer science in University of Central
-            Florida with limited experience in development field but seeking
-            opportunities on learning new techniques and gaining expertise for
-            future career
+            Florida with enthusiasm and passion in software development. I
+            strive to learn new skills and explore the unknown. With limited
+            experience in Web development and Linux, I am looking forwarding to
+            facing more challenges and meeting potential teammates.
           </p>
 
           <a href="#contact" className="btn btn-primary">

@@ -31,7 +31,8 @@
 }
 
 .contact_option:hover {
-    padding: 1.6rem;
+    text-align: center;
+    padding: 1.3rem;
     font-size: 1.2rem;
     cursor: pointer;
     background: transparent;

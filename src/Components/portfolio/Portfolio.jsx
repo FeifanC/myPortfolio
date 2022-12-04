@@ -38,10 +38,10 @@ function Portfolio() {
             <div className="portfolio_data">
               <h3>Instruction</h3>
               <p>
-                For the people who are willing to try to cut their own hair at
+                For the people who are willing to try cutting their own hair at
                 the comfort of their home. The Following instructions include
-                the required tools, beginner tips, and what to expect, the
-                general guidelines for just shortening the hair.
+                the required tools, beginner tips, and expectations, and the
+                general guidelines for hair shortening.
               </p>
               <div className="btnContainer">
                 <a href={ins} className="btn btn2" target="blank">
@@ -60,9 +60,9 @@ function Portfolio() {
             <div className="portfolio_data">
               <h3>Research Proposal</h3>
               <p>
-                The research proposal is applied for the research of different
-                ways our privacy is being invaded by IoT and help costomers gain
-                better understanding to proctect to personal data
+                The research proposal is applied for the research of a variety
+                of ways our privacy is being invaded by IoT and to help
+                costomers gain better understanding on proctecting personal data
               </p>
               <div className="btnContainer">
                 <a href={rp} className="btn btn2">
@@ -91,7 +91,11 @@ function Portfolio() {
                 <a href={cl} className="btn btn2">
                   Cover Letter
                 </a>
-                <a href="https://youtube.com/shorts/CXYs--elLDg?feature=share" target = "blank"className="btn btn2">
+                <a
+                  href="https://youtube.com/shorts/CXYs--elLDg?feature=share"
+                  target="blank"
+                  className="btn btn2"
+                >
                   Mini Interview Video
                 </a>
               </div>

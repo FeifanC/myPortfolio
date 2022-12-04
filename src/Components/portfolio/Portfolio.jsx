@@ -9,6 +9,14 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 
+import PWebPic4 from "../../assets/learn.jpg";
+import ins from "../../assets/ins.pdf";
+import rp from "../../assets/Research Proposal.docx";
+import r from "../../assets/Feifan Cao.doc";
+import r2 from "../../assets/deletp.jpg";
+import cl from "../../assets/cover letter.docx";
+import d2 from "../../assets/dele2.jpg";
+
 function Portfolio() {
   return (
     <section id="portfolio">
@@ -22,6 +30,74 @@ function Portfolio() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
+        {/* deleting project ---------------------------------------------------- */}
+        <SwiperSlide>
+          <div className="portfolio_content grid">
+            <img src={PWebPic4} alt="" />
+
+            <div className="portfolio_data">
+              <h3>Instruction</h3>
+              <p>
+                For the people who are willing to try to cut their own hair at
+                the comfort of their home. The Following instructions include
+                the required tools, beginner tips, and what to expect, the
+                general guidelines for just shortening the hair.
+              </p>
+              <div className="btnContainer">
+                <a href={ins} className="btn btn2" target="blank">
+                  Instruction <AiOutlineArrowRight className="arrow" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        {/* deleting project2 ---------------------------------------------------- */}
+        <SwiperSlide>
+          <div className="portfolio_content grid">
+            <img src={r2} alt="" />
+
+            <div className="portfolio_data">
+              <h3>Research Proposal</h3>
+              <p>
+                The research proposal is applied for the research of different
+                ways our privacy is being invaded by IoT and help costomers gain
+                better understanding to proctect to personal data
+              </p>
+              <div className="btnContainer">
+                <a href={rp} className="btn btn2">
+                  Research Proposal <AiOutlineArrowRight className="arrow" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        {/* deleting project3 ---------------------------------------------------- */}
+        <SwiperSlide>
+          <div className="portfolio_content grid">
+            <img src={d2} alt="" />
+
+            <div className="portfolio_data">
+              <h3>Resume Package</h3>
+              <p>
+                The following files contain the resume, cover letter and mini
+                interview for a potential job
+              </p>
+              <div className="btnContainer">
+                <a href={r} className="btn btn2">
+                  Resume
+                </a>
+                <a href={cl} className="btn btn2">
+                  Cover Letter
+                </a>
+                <a href="https://youtube.com/shorts/CXYs--elLDg?feature=share" target = "blank"className="btn btn2">
+                  Mini Interview Video
+                </a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
         {/* fist project ---------------------------------------------------- */}
         <SwiperSlide>
           <div className="portfolio_content grid">

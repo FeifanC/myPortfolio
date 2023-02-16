@@ -3,6 +3,9 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import PWebPic1 from "../../assets/map.jpg";
 import PWebPic2 from "../../assets/signup.jpg";
 import PWebPic3 from "../../assets/signin.jpg";
+import PWebPic4 from "../../assets/dashboard.PNG";
+import PWebPic5 from "../../assets/chat.jpg";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -114,28 +117,67 @@ function Portfolio() {
           </div>
         </SwiperSlide>
 
-        {/* <SwiperSlide>
+        {/* fourth project --------------------------------------------------- */}
+        <SwiperSlide>
           <div className="portfolio_content grid">
-            <img src={PWebPic4} alt="modern website" />
+            <img src={PWebPic4} alt="data control" />
 
             <div className="portfolio_data">
-              <h3>Personal Website</h3>
+              <h3>Data Dashboard</h3>
               <p>
-                Modern website built with React demonstrating personal skillset
-                and UI/UX design{" "}
+                Using sample data from Microsoft AdventureWork to extract
+                specific reports with SQL, which are utilized by Power BI to
+                build an interactive dashboard{" "}
               </p>
               <div className="btnContainer">
-                <a href="" className="btn">
+                <a
+                  href="https://github.com/FeifanC/data-dashboard"
+                  target="blank"
+                  className="btn"
+                >
+                  Source{" "}
+                </a>
+                <a
+                  href="https://github.com/FeifanC/data-dashboard"
+                  className="btn"
+                >
+                  Demo
+                  <AiOutlineArrowRight className="arrow" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="portfolio_content grid">
+            <img src={PWebPic5} alt="chat app" />
+
+            <div className="portfolio_data">
+              <h3>Chat App</h3>
+              <p>
+                chat app implemented with React on the frontend, NodeJS and
+                Socket.io on the backend.{" "}
+              </p>
+              <div className="btnContainer">
+                <a
+                  href="https://github.com/FeifanC/ChatApp.git"
+                  className="btn"
+                  target="blank"
+                >
                   Demo{" "}
                 </a>
-                <a href="" className="btn">
+                <a
+                  href="https://github.com/FeifanC/ChatApp.git"
+                  className="btn"
+                  target="blank"
+                >
                   Source
                   <AiOutlineArrowRight className="arrow" />
                 </a>
               </div>
             </div>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
       </Swiper>
     </section>
   );

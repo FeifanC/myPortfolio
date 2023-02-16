@@ -49,8 +49,9 @@
 .portfolio_data {
     transition: var(--transition);
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 1.5rem;
     border: 1px solid transparent;
+    margin: auto;
 }
 
 
@@ -87,6 +88,8 @@
     vertical-align: middle;
     font-size: 1.3rem;
 }
+
+
 
 /*======================== tablet queries devices */
 
@@ -140,6 +143,7 @@
     .btnContainer a {
         padding: .5rem 1rem;
     }
+
 
 }
 
@@ -213,7 +217,7 @@
     }
 
     .portfolio_data {
-        padding-top: 1rem;
+        padding-top: 2.5%;
     }
 
     .btnContainer {

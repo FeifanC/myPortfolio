@@ -19,32 +19,29 @@ const About = () => {
             <article className="about_card">
               <TbAward className="about_icon" />
               <h5>Experience</h5>
-              <small>0+ Years Working</small>
+              <small> 1+ Years Working</small>
             </article>
 
             <article /*style={{display: "none"}}*/ className="about_card">
               <FaUsers className="about_icon" />
               <h5>Clients</h5>
-              <small>0 For Now</small>
+              <small>maybe</small>
             </article>
 
             <article className="about_card project">
               <a href="#portfolio">
                 <FaFolderOpen className="about_icon" />
                 <h5>Projects</h5>
-                <small>Coming Soon</small>
+                <small>Check it Out!</small>
               </a>
             </article>
           </div>
 
           <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;College senior study computer science in
-            University of Central Florida with enthusiasm and passion in
+            &nbsp;&nbsp;&nbsp;&nbsp;Graduated with Bachelor of Computer Science from
+            University of Central Florida, Seeking to emphasize my enthusiasm and passion in
             software development. <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;With limited experience in Web development
-            and hardware repair, am looking forwarding to facing more challenges
-            on development field and bring my personal skillsets to the table
-            like good communication, time management and teamwork.
+            &nbsp;&nbsp;&nbsp;&nbsp; Looking forward to thriving in collaborative, agile environments, consistently delivering high-quality solutions that contribute to the company's technological advancements.
           </p>
 
           <a href="#contact" className="btn btn-primary">

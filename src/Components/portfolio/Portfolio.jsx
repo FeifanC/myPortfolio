@@ -1,10 +1,10 @@
 import "./portfolio.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import PWebPic1 from "../../assets/map.jpg";
-import PWebPic2 from "../../assets/signup.jpg";
-import PWebPic3 from "../../assets/signin.jpg";
+import PWebPic2 from "../../assets/circuit.jpg";
 import PWebPic4 from "../../assets/dashboard.PNG";
 import PWebPic5 from "../../assets/chat.jpg";
+import PWebPic6 from "../../assets/rating.jpg"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -58,87 +58,23 @@ function Portfolio() {
         {/* second project --------------------------------------------------- */}
         <SwiperSlide>
           <div className="portfolio_content grid">
-            <img src={PWebPic2} alt="Sign up page" />
+            <img src={PWebPic2} alt="" />
 
             <div className="portfolio_data">
-              <h3>Simple Sign-Up</h3>
+              <h3>Compiler in C</h3>
               <p>
-                Simple Sign up Application with ReactJS on the front and
-                Express.js, MongoDB on the back{" "}
+              Design and development of compilers, assemblers, linkers, and loaders mimicking low level system functionality in C.{" "}
               </p>
               <div className="btnContainer">
                 <a
-                  href="https://github.com/FeifanC/VerySimpleSignUp.git"
+                  href="https://github.com/FeifanC/schoolWork/tree/main/System_software"
                   target="blank"
                   className="btn"
                 >
                   Source{" "}
                 </a>
                 <a
-                  href="https://github.com/FeifanC/VerySimpleSignUp.git"
-                  className="btn"
-                >
-                  Demo
-                  <AiOutlineArrowRight className="arrow" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        {/* third project --------------------------------------------------- */}
-        <SwiperSlide>
-          <div className="portfolio_content grid">
-            <img src={PWebPic3} alt="Sign In API" />
-
-            <div className="portfolio_data">
-              <h3>Sign In API</h3>
-              <p>
-                Sign-In and Sign-Up API(front end not connected yet) utilizing
-                Express.js and MongoDB with Authetication(JSON Web Token){" "}
-              </p>
-              <div className="btnContainer">
-                <a
-                  href="https://github.com/FeifanC/Sign-In-Up.git"
-                  target="blank"
-                  className="btn"
-                >
-                  Source{" "}
-                </a>
-                <a
-                  href="https://github.com/FeifanC/Sign-In-Up.git"
-                  className="btn"
-                >
-                  Demo
-                  <AiOutlineArrowRight className="arrow" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        {/* fourth project --------------------------------------------------- */}
-        <SwiperSlide>
-          <div className="portfolio_content grid">
-            <img src={PWebPic4} alt="data control" />
-
-            <div className="portfolio_data">
-              <h3>Data Dashboard</h3>
-              <p>
-                Using sample data from Microsoft AdventureWork to extract
-                specific reports with SQL, which are utilized by Power BI to
-                build an interactive dashboard{" "}
-              </p>
-              <div className="btnContainer">
-                <a
-                  href="https://github.com/FeifanC/data-dashboard"
-                  target="blank"
-                  className="btn"
-                >
-                  Source{" "}
-                </a>
-                <a
-                  href="https://github.com/FeifanC/data-dashboard"
+                  href="https://github.com/FeifanC/schoolWork/tree/main/System_software"
                   className="btn"
                 >
                   Demo
@@ -156,7 +92,7 @@ function Portfolio() {
               <h3>Chat App</h3>
               <p>
                 chat app implemented with React on the frontend, NodeJS and
-                Socket.io on the backend.{" "}
+                Socket.io on the backend simulating real time chat communication.{" "}
               </p>
               <div className="btnContainer">
                 <a
@@ -172,6 +108,35 @@ function Portfolio() {
                   target="blank"
                 >
                   Source
+                  <AiOutlineArrowRight className="arrow" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        {/* second project --------------------------------------------------- */}
+        <SwiperSlide>
+          <div className="portfolio_content grid">
+            <img src={PWebPic6} alt="" />
+
+            <div className="portfolio_data">
+              <h3>betweenShows</h3>
+              <p>Implemented multiple APIs, server setup, client data storage/fetching on the Backend for the Show Ratings App in NodeJS, MongoDB.
+              {" "}
+              </p>
+              <div className="btnContainer">
+                <a
+                  href="https://github.com/FeifanC/COP4331-Large-Project"
+                  target="blank"
+                  className="btn"
+                >
+                  Source{" "}
+                </a>
+                <a
+                  href="https://github.com/FeifanC/COP4331-Large-Project"
+                  className="btn"
+                >
+                  Demo
                   <AiOutlineArrowRight className="arrow" />
                 </a>
               </div>

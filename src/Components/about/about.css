@@ -26,19 +26,19 @@
     background: rgba(106, 90, 205, .1);
     display: grid;
     place-items: center;
+    transition: var(--transition);
 }
 
+.about_me:hover {
+    background: transparent;
+    cursor: pointer;
+}
 
 .about_me img {
     border-radius: 2rem;
     overflow: hidden;
     height: 100%;
     transition: var(--transition);
-}
-
-.about_me img:hover {
-    transform: rotate(10deg);
-
 }
 
 .about_content {
@@ -103,6 +103,10 @@
         height: max-content;
     }
 
+    #about:hover {
+        transform: rotate(10deg);
+    }
+
     #about h2 {
         padding-top: 0rem;
         margin-bottom: 0rem;
@@ -126,7 +130,7 @@
         padding: 0 3rem;
     }
 
-
+    
 
 }
 

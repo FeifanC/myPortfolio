@@ -1,11 +1,11 @@
 import "./portfolio.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import PWebPic1 from "../../assets/map.jpg";
+import PWebPic1 from "../../assets/calculator.jpg";
 import PWebPic2 from "../../assets/circuit.jpg";
 import PWebPic4 from "../../assets/dashboard.PNG";
 import PWebPic5 from "../../assets/chat.jpg";
 import PWebPic6 from "../../assets/rating.jpg"
-
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -13,6 +13,9 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 
 function Portfolio() {
+  const [txt1, setTxt1] = useState("Hello World");
+  const [txt2, setTxt2] = useState("Hello World");
+
   return (
     <section id="portfolio">
       <h2>What Has He Done</h2>
@@ -28,26 +31,23 @@ function Portfolio() {
         {/* fist project ---------------------------------------------------- */}
         <SwiperSlide>
           <div className="portfolio_content grid">
-            <img src={PWebPic1} alt="Location App" />
+            <img src={PWebPic1} alt="" />
 
             <div className="portfolio_data">
-              <h3>Danger Sighting</h3>
-              <p>
-                {" "}
-                "Bear Sighting" React Location App where Google Maps, Google
-                Places, and browser geolocation are implemented with React hooks
-                and packages{" "}
+              <h3>Calculate</h3>
+              <p style={{fontFamily: "cursive"}}>
+                <input style={{height: 50, marginBottom: 10}} value={txt1} type="text" onChange={e => setTxt1(e.target.value)} placeholder="Enter text here"/>
+                <input style={{height: 50, marginBottom: 10}}  value={txt2} type="text" onChange={e => setTxt2(e.target.value)} placeholder="Enter text here"/>
               </p>
               <div className="btnContainer">
                 <a
-                  href="https://github.com/FeifanC/map.git"
-                  target="blank"
                   className="btn"
                 >
-                  Source{" "}
+                  Source (unavailable){" "}
                 </a>
-                <a href="https://github.com/FeifanC/map.git" className="btn">
+                <a className="btn">
                   Demo
+                  (unavailable){" "}
                   <AiOutlineArrowRight className="arrow" />
                 </a>
               </div>
@@ -84,7 +84,7 @@ function Portfolio() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="portfolio_content grid">
             <img src={PWebPic5} alt="chat app" />
 
@@ -113,9 +113,9 @@ function Portfolio() {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* second project --------------------------------------------------- */}
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="portfolio_content grid">
             <img src={PWebPic6} alt="" />
 
@@ -142,7 +142,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </section>
   );

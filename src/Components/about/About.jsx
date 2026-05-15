@@ -19,10 +19,10 @@ const About = () => {
             <article className="about_card">
               <TbAward className="about_icon" />
               <h5>Experience</h5>
-              <small> 1+ Years Working</small>
+              <small> Since 2023</small>
             </article>
 
-            <article /*style={{display: "none"}}*/ className="about_card">
+            <article style={{display: "none"}} className="about_card">
               <FaUsers className="about_icon" />
               <h5>Clients</h5>
               <small>maybe</small>
@@ -37,7 +37,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>
+          <p style={{fontFamily: "cursive"}}>
             &nbsp;&nbsp;&nbsp;&nbsp;Graduated with Bachelor of Computer Science from
             University of Central Florida, Seeking to emphasize my enthusiasm and passion in
             software development. <br />
@@ -45,7 +45,7 @@ const About = () => {
           </p>
 
           <a href="#contact" className="btn btn-primary">
-            Let's get familiar
+            Send a Message
           </a>
         </div>
       </div>
